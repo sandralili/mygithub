@@ -201,3 +201,5 @@ prose:
 # Markdown emoji plugin
 gems:
   - jemoji
+
+theme: jekyll-theme-cayman
