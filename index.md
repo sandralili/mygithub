@@ -6,7 +6,7 @@ use-site-title: true
 ---
 
 ## <img src="../img/news.png" height="50px"> News
-- <img src="../img/spotify.png" height="30px"> Bjsadjsdajsdjasjdjas (industry sabbatical).
+- <img src="../img/spotify.png" height="30px"> Test on MD FILE (industry sabbatical).
 - <img src="../img/fireworks.png" height="30px"> Three works made it into  ICTIR 2021. Led by three PhD students from my team, Nirmal Roy (interaction models for IR), Peide Zhu (question generation), and Sara Salimzadeh
  (entity cards - this work got an honorable mention <img src="../img/honorable.png" height="30px">). Supported by David Maxwell and Arthur Câmara.
 - <img src="../img/microphone.png" height="30px"> I gave a talk (04/2021) at the UMass CIIR Talk Series and presented my team's [Search As Learning research](https://docs.google.com/presentation/d/e/2PACX-1vTngMwaUeToWKfFSwCS00pFadyKoukiLwkf0SzgRIkaV8lkgJFLL5p_Dmmo-G7YKnsByx0vwtAbq6aT/pub?start=false&loop=false&delayms=3000).
