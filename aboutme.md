@@ -1,17 +1,10 @@
 ---
 layout: page
 title: About me
-subtitle: About Sandra
+subtitle: This is my story
 ---
 
-
-<div style="color: red;">
- <h2> Ejemplo de div y span </h2>
-  <p>
-    Esto es un párrafo dentro de un div,
-    <span style="color: red;"> y esto un span dentro de un párrafo.</span>
-  </p>
-</div>
+<img src="../img/asu.png" height="200px" class="center">
 
 <h1> Sandra Pérez </h1>
 
@@ -22,7 +15,7 @@ Hello, my name is Sandra Pérez and I am currently working on my master's degree
 </div>
 
 
-<h1> My Story </h1>
+<h1> My Degrees </h1>
 
 I have a Bachelors Degree in Computer Science. I received my degree more than twenty years ago. It has been a challenge learning new things but I love this program and I have learned a lot.
 
@@ -53,22 +46,49 @@ mycustomtag { }
  
 
 <div class="myDiv">
-  <h2>ASU</h2>
-  <p>PEDA</p>
+  <h2>PEDA</h2>
+  <p>Program Evaluation and Data Analytics</p>
 </div>
 
-<p>Program Evaluation and Data Analytics.</p>
+<p>I started this program in August, 2020, my plan is to complete it by May 2022</p>
 
 </body>
 </html>
 
 
-<div style="color: blue;">
- <h2> Ejemplo de div y span </h2>
+<html>
+<head>
+<style>
+.myDiv {
+  border: 4px outset black;
+  background-color: orange;    
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1> ITT </h1>
+ 
+ 
+
+<div class="myDiv">
+  <h2>CS</h2>
+  <p>Computer Science</p>
+</div>
+
+<p>I started this program in August, 1993, I graduated in December, 1997</p>
+
+</body>
+</html>
+
+
+<div style="color: black;">
+ <h2> Time flyes... </h2>
   <p>
-    Esto es un párrafo dentro de un div,
-    <span style="color: red;"> y esto un span dentro de un párrafo.</span>
+    Learning new things,
+    <span style="color: red;"> it is a challenge, but it is worthy</span>
   </p>
 </div>
 
-<img src="img/ASU.png" class="img-responsive" alt=""> </div>
+
