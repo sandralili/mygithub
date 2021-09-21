@@ -51,11 +51,11 @@ mycustomtag { }
 <h1> ASU </h1>
 
 <div class="myDiv">
-  <h2>This is a heading in a div element</h2>
-  <p>This is some text in a div element.</p>
+  <h2>ASU</h2>
+  <p>PEDA</p>
 </div>
 
-<p>This is some text outside the div element.</p>
+<p>Program Evaluation and Data Analytics.</p>
 
 </body>
 </html>
