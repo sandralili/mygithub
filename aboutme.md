@@ -49,6 +49,8 @@ mycustomtag { }
 <body>
 
 <h1> ASU </h1>
+ 
+ 
 
 <div class="myDiv">
   <h2>ASU</h2>
@@ -69,3 +71,4 @@ mycustomtag { }
   </p>
 </div>
 
+<img src="img/ASU.png" class="img-responsive" alt=""> </div>
