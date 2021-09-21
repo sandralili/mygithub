@@ -1,107 +1,53 @@
-# --- Serving options --- #
+# Welcome to Beautiful Jekyll!
+# This config file is meant for settings that affect your entire website. When you first
+# set up your website you should go through all these settings and edit them, but after
+# the initial set up you won't need to come back to this file often.
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://chauff.github.io"
-baseurl: ""
-
-# If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
-
-# Of course don't forget to change the username and projectname to YOUR username and project
+# --- Required options --- #
 
 # Name of website
-title: My Github
+title: Sandra Perez's Site
+
+# Your name to show in the footer
+author: Sandra Perez
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Lab 05 
 
-
-# --- Navigation bar options --- #
-
-# List of links in the navigation bar
-navbar-links:
-  Home: "https://staph-b.github.io/docker-builds"
-  GitHub Page: "https://github.com/StaPH-B/docker-builds"
-  Chapters:
-    - Downloading docker images: "get_containers"
-    - Running docker containers: "run_containers"
-    - Develop your own container: "make_containers"
-    - Useful links: "useful_links"
-    - Contributing to the StaPH-B repository: "contribute"
-    
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/og_claudia.png"
-
-
-# If you want to have an image logo in the top-left corner instead of the title text,
-# then specify the following parameter
-title-img: "/docker-builds/assets/logo.png"
-
-# --- Background colour/image options --- #
-
-# Personalize the colors in your website. Colour values can be any valid CSS colour
-
-navbar-col: "#d8d8d8"
-navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
-page-col: "#bbbbbb"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#d8d8d8"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-
-# navbar-col: "#1f1f1f"
-# navbar-text-col: "#bfbfbf"
-# navbar-children-col: "#333"
-# page-col: "#FFFFFF"
-# link-col: "#008AFF"
-# hover-col: "#0085A1"
-# footer-col: "#222"
-# footer-text-col: "#989898"
-# footer-link-col: "#d2d2d2"
+# --- List of links in the navigation bar --- #
 
 # List of links in the navigation bar
+
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - Getting Started: "getstarted"                         # ADD THIS LINK
+  Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  Learn markdown: "http://www.markdowntutorial.com/"
+  Getting Started: "getstarted"                                       
+  Table Demo: "table-demo"              
   Author's home: "http://deanattali.com"
-  Blog: "blog"
-  Teaching: "teaching"
-  #Datasets: "datasets"
-  Publications: "publications"
+ 
  
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Claudia Hauff
-  email: "c.hauff[at]tudelft.nl"
-  github: chauff    # eg. daattali
-  twitter: charlottehase   # eg. daattali
-  og_image: "/img/og_claudia.png"
+  name: Sandra Perez
+  email: "slperez8[at]asu.edu"
+  github: sandralili    # eg. daattali
+  twitter: ""   # eg. daattali
+  og_image: "/img/SF.jpg"
+  linkedin: sandra-l-perez-7759b272/
 
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
+  facebook: false
   email: true
-  twitter: true
-  github: false
-  linkedin: false
+  twitter: false
+  github: true
+  linkedin: true
 
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-# url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
@@ -117,10 +63,11 @@ paginate: 5
 paginate_path: "blog/page:num"
 
 
+
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "Europe/Amsterdam"
+timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
@@ -202,4 +149,4 @@ prose:
 gems:
   - jemoji
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
