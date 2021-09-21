@@ -13,9 +13,7 @@ subtitle: About Sandra
   </p>
 </div>
 
-<h1> About me </h1>
-
-## Sandra Pérez
+<h1> Sandra Pérez </h1>
 
 <div class = "example-class">
 
@@ -24,7 +22,7 @@ Hello, my name is Sandra Pérez and I am currently working on my master's degree
 </div>
 
 
-### My story
+<h2> My Story </h2>
 
 I have a Bachelors Degree in Computer Science. I received my degree more than twenty years ago. It has been a challenge learning new things but I love this program and I have learned a lot.
 
@@ -37,20 +35,20 @@ mycustomtag { }
   
 </style>
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <style>
 .myDiv {
   border: 5px outset red;
-  background-color: lightblue;    
+  background-color: yellow;    
   text-align: center;
 }
 </style>
 </head>
 <body>
 
-<h1>The div element</h1>
+<h1> ASU </h1>
 
 <div class="myDiv">
   <h2>This is a heading in a div element</h2>
