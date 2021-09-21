@@ -5,7 +5,7 @@ subtitle: My Master's Degree
 use-site-title: true
 ---
 
-<img src="../img/Header_punta_mita.png" height="300px" class="center">
+<img src="../img/header_punta_mita.png" height="300px" class="center">
 
 Welcome to my site!
 
