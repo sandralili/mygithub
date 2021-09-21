@@ -10,7 +10,7 @@ subtitle: This is my story
 
 <div class = "example-class">
 
-Hello, my name is Sandra Pérez and I am currently working on my master's degree at Arizona State University. The name of the degree is **Program Evaluation and Data Analytics**. 
+Hello, my name is Sandra Pérez and I am currently working on my master's degree at Arizona State University. The name of the degree is Program Evaluation and Data Analytics. 
   
 </div>
 
@@ -56,12 +56,13 @@ mycustomtag { }
 </html>
 
 
-<html>
+
+<html2>
 <head>
 <style>
 .myDiv {
   border: 4px outset black;
-  background-color: orange;    
+  background-color: dark orange;    
   text-align: center;
 }
 </style>
@@ -80,14 +81,14 @@ mycustomtag { }
 <p>I started this program in August, 1993, I graduated in December, 1997</p>
 
 </body>
-</html>
+</html2>
 
 
 <div style="color: black;">
  <h2> Time flyes... </h2>
   <p>
-    Learning new things,
-    <span style="color: red;"> it is a challenge, but it is worthy</span>
+    Learning new things is a challenge,
+    <span style="color: red;"> but it is worthy</span>
   </p>
 </div>
 
