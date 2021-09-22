@@ -42,16 +42,15 @@ mycustomtag { }
 <body>
 
 <h1> ASU </h1>
+<a href="https://www.asu.edu/">Visit ASU</a> 
  
- 
-
 <div class="myDiv">
   <h2>Master in Science</h2>
   <p>PEDA - Program Evaluation and Data Analytics</p>
 </div>
 
 <p>I started this program in August, 2020, my plan is to complete it by May 2022</p>
-
+  
 </body>
 </html>
 
