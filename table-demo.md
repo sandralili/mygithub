@@ -18,9 +18,9 @@ gosling:
   strengths: 
   - conquered many cultures
   - strong empire economically
-  - great leaders
-  - well organized military
+  - great leaders, well organized military
   - knew their land very well
+  - pyramids
   weaknesses: 
   - human/ritual sacrifices
   - political problems
