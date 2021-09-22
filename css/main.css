@@ -3,7 +3,7 @@
 /* --- General --- */
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Gill Sans Extrabold', 'Helvetica', sans-serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -50,7 +50,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gill Sans Extrabold', 'Helvetica', sans-serif;
   padding: 15px inherit;
 }
 
