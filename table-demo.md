@@ -29,7 +29,10 @@ gosling:
   - conquered by stronger civilization
 ---
 
+### Teotihuacan Pyramids (Aztecs)
 <img src="../img/piramides.jpg" class="center">
+
+### Chichen-Itza Pyramids (Mayans)
 <img src="../img/mayans.jpg" class="center">
 
 
