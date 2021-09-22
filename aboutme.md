@@ -19,6 +19,9 @@ I enjoy walking outside. When the weather is nice, I go hiking.
 
 Love listening to music, love The Beatles and music from the 60s (influenced by my parents!), but I like all kind of music. When I have time, I contribute translating or creating new pages in Spanish for Wikipedia.
 
+
+<img src="../img/beatles.jpg" height="300px" class="center">
+
 <style>
 
 h1 { color: purple }
