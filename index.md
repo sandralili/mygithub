@@ -5,11 +5,11 @@ subtitle: My Master's Degree
 use-site-title: true
 ---
 
-<img src="..img/sf.png", class="center">
+<img src="..img/sf.png" class="center">
 
 Welcome to my site!
 
-<img src="../img/slperez8b.jpg", class="center">
+<img src="../img/slperez8b.jpg" class="center">
 
 ### Program
 
