@@ -48,7 +48,7 @@ mycustomtag { }
  
 <div class="myDiv">
   <h2>Master in Science</h2>
-  <p>PEDA - Program Evaluation and Data Analytics</p>
+  <p>Program Evaluation and Data Analytics</p>
 </div>
 
 <p>I started this program in August, 2020, my plan is to complete it by May 2022</p>
@@ -73,7 +73,7 @@ mycustomtag { }
  
 <div class="myDiv">
   <h2>Bachelor in Science</h2>
-  <p>CS - Computer Science</p>
+  <p>Computer Science</p>
 </div>
 
 <p>I started this program in August, 1993, I graduated in December, 1997</p>
