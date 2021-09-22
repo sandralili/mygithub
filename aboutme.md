@@ -4,7 +4,7 @@ title: About me
 subtitle: This is my story
 ---
 
-<img src="../img/asu.png" height="200px" class="center">
+<img src="../img/asu.png" height="300px" class="center">
 
 <h1> Sandra Pérez </h1>
 
@@ -21,7 +21,7 @@ I have a Bachelors Degree in Computer Science. I received my degree more than tw
 
 <style>
 
-h1 { color: red }
+h1 { color: purple }
   
 mycustomtag { }
   .example-class { }
@@ -33,8 +33,8 @@ mycustomtag { }
 <head>
 <style>
 .myDiv {
-  border: 5px outset red;
-  background-color: yellow;    
+  border: 3px outset black;
+  background-color: purple;    
   text-align: center;
 }
 </style>
@@ -61,8 +61,8 @@ mycustomtag { }
 <head>
 <style>
 .myDiv {
-  border: 4px outset black;
-  background-color: dark orange;    
+  border: 3px outset black;
+  background-color: purple;    
   text-align: center;
 }
 </style>
@@ -71,8 +71,6 @@ mycustomtag { }
 
 <h1> ITT </h1>
  
- 
-
 <div class="myDiv">
   <h2>CS</h2>
   <p>Computer Science</p>
@@ -88,7 +86,7 @@ mycustomtag { }
  <h2> Time flyes... </h2>
   <p>
     Learning new things is a challenge,
-    <span style="color: red;"> but it is worthy</span>
+    <span style="color: purple;"> but it is worthy</span>
   </p>
 </div>
 
