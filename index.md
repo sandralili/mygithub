@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  My New adventure
+title:  My New Adventure
 subtitle: My Master's Degree
 use-site-title: true
 ---
@@ -15,7 +15,7 @@ Hello, my name is Sandra Pérez and I am currently working on my master's degree
   
 </div>
 
-I have a Bachelors Degree in Computer Science. I received my degree more than twenty years ago. It has been a challenge learning new things but I love this program and I have learned a lot.
+I have a Bachelor's Degree in Computer Science. I received my degree more than twenty years ago. It has been a challenge learning new things but I love this program and I have learned a lot.
 
 <style>
 
@@ -47,7 +47,7 @@ mycustomtag { }
 <a href="https://publicservice.asu.edu/">Visit The Watts College of Public Service and Community Solutions</a> 
  
 <div class="myDiv">
-  <h2>Master in Science</h2>
+  <h2>Master of Science</h2>
   <p>Program Evaluation and Data Analytics</p>
 </div>
 
@@ -72,7 +72,7 @@ mycustomtag { }
 <a href="https://https://www.tepic.tecnm.mx//">Visit Technological Institute of Tepic</a>  
  
 <div class="myDiv">
-  <h2>Bachelor in Science</h2>
+  <h2>Bachelor of Science</h2>
   <p>Computer Science</p>
 </div>
 
