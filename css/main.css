@@ -18,7 +18,7 @@ p a {
   color: #FE9000;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
   font-weight: 800;
 }
 a {
@@ -50,7 +50,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Gill Sans Extrabold', 'Helvetica', sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
   padding: 15px inherit;
 }
 
@@ -96,7 +96,7 @@ img {
 .navbar-custom {
   background: #094074;
   border-bottom: 1px solid #094074;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 
 .navbar-custom .nav li a {
@@ -273,7 +273,7 @@ footer .theme-by {
   margin: 0 0 10px;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -310,7 +310,7 @@ header.header-page .page-heading .page-subheading {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -345,7 +345,7 @@ header.header-post .post-heading .post-subheading {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
