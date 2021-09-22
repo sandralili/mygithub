@@ -42,7 +42,7 @@ mycustomtag { }
 <body>
 
 <h1> ASU </h1>
-<a href="https://www.asu.edu/">Visit ASU</a> 
+<a href="https://www.asu.edu/">Visit Arizona State University</a> 
  
 <div class="myDiv">
   <h2>Master in Science</h2>
@@ -69,6 +69,7 @@ mycustomtag { }
 <body>
 
 <h1> ITT </h1>
+<a href="https://https://www.tepic.tecnm.mx//">Visit Technological Institute of Tepic</a>  
  
 <div class="myDiv">
   <h2>Bachelor in Science</h2>
