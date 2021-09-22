@@ -6,21 +6,27 @@ reynolds:
   - calendar system
   - astronomy
   - first organized "ball game"
+  - developed concept of zero
+  - pyramids
   weaknesses: 
   - overpopulation
   - overuse of their land
-  - tennis backhand
   - unable to fight droughts 
+  - religion
+  - conquered by stronger civilization
 gosling:
   strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
+  - conquered many cultures
+  - strong empire economically
+  - great leaders
+  - well organized military
+  - knew their land very well
   weaknesses: 
-  - mickey mouse club
-  - cries a lot
-  - not ryan reynolds
-  - never dated alanis morissette
+  - human/ritual sacrifices
+  - political problems
+  - diseases
+  - local enemies from past invasions
+  - conquered by stronger civilization
 ---
 
 <img src="../img/piramides.jpg" class="center">
