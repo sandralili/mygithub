@@ -3,14 +3,14 @@ layout: liquid-table
 title: 'amiright?'
 reynolds:
   strengths:
-  - good father
-  - funny
-  - dated alanis morissette
+  - calendar system
+  - astronomy
+  - first organized "ball game"
   weaknesses: 
-  - singing
-  - green lantern movie
+  - overpopulation
+  - overuse of their land
   - tennis backhand
-  - dated alanis morissette 
+  - unable to fight droughts 
 gosling:
   strengths: 
   - builds houses
