@@ -222,14 +222,14 @@ layout: default
        ###  &lt;li> list item 
        ###
 
-        &lt;h2> Ryan vs Ryan &lt;/h2>
+        &lt;h2> Mayans vs Aztecs &lt;/h2>
 
-        &lt;table id="ryan-v-ryan">
+        &lt;table id="mayans-v-aztecs">
 
         &lt;thead>
           &lt;tr>
-            &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
-            &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Mayans  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Aztecs  &lt;/h3>  &lt;/th>
           &lt;/tr>
         &lt;/thead>
 
@@ -240,11 +240,13 @@ layout: default
             &lt;ul>
 
               ###  LIQUID LOOPS WITH YAML DATA
-              ###  reynolds:
+              ###  mayans:
               ###    strengths:
               ###    - good father
               ###    - funny
               ###    - dated alanis morissette
+              ###
+              ###
 
               &lbrace;% for item in page.reynolds.strengths %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
