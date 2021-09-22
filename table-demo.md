@@ -30,6 +30,7 @@ layout: liquid-table
 ---
 
 <img src="../img/piramides.jpg" class="center">
+<img src="../img/mayans.jpg" class="center">
 
 
 ## Who was the best empire?
