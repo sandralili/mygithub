@@ -29,13 +29,12 @@ gosling:
   - conquered by stronger civilization
 ---
 
-### Teotihuacan Pyramids (Aztecs)
+#### Teotihuacan Pyramids (Aztecs)
 <img src="../img/piramides.jpg" class="center">
 
-### Chichen-Itza Pyramids (Mayans)
+#### Chichen-Itza Pyramids (Mayans)
 <img src="../img/mayans.jpg" class="center">
 
 
-## Who was the best empire?
-
+# Who was the best empire?
 We will take a look at the strengths and weaknesses of Mayans and Aztecs to determine once and for all: who was the best empire?
