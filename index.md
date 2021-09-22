@@ -5,11 +5,11 @@ subtitle: My Master's Degree
 use-site-title: true
 ---
 
-<img src="../img/puntademita.png" height="200px" class="center">
+<img src="..img/sf.png", class="center">
 
 Welcome to my site!
 
-<img src="../img/slperez8b.jpg" height="150px" class="center">
+<img src="../img/slperez8b.jpg", class="center">
 
 ### Program
 
@@ -24,7 +24,7 @@ Faculty: Watts College of Public Service and Community Solutions
 
 Program Evaluation and Data Analytics
 
-<img src="..img/sf.png" height="200px" class="center">
+
 
 
 
@@ -41,4 +41,3 @@ Email: [slperez8@asu.edu](mailto:slperez8@asu.edu)
   </p>
 </div>
 
-<img src="../img/piramides.jpg" height="150px" class="center">
