@@ -41,11 +41,12 @@ footer-text-col: "#777777"
 footer-link-col: "#404040"
 
 navbar-links:
+  Home: "index"
   About Me: "aboutme"
+  Table Demo: "table-demo"
   Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
   Learn markdown: "http://www.markdowntutorial.com/"
   Getting Started: "getstarted"                                       
-  Table Demo: "table-demo"              
   Author's home: "http://deanattali.com"
  
  
