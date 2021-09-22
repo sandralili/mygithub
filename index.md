@@ -7,7 +7,7 @@ use-site-title: true
 
 Welcome to my site!
 
-<img src="../img/asu.png" height="300px" class="center">
+<img src="img/asu.png" height="300px" class="center">
 
 <h1> Sandra Pérez </h1>
 
