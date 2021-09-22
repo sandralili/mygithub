@@ -9,12 +9,12 @@ layout: default
 
 <h2> Mayans vs Aztecs: Liquid Table Demo </h2>
 
-<table id="mayans-v-aztecs">
+<table id="ryan-v-ryan">
 
 <thead>
   <tr>
-    <th>  <h3>  Mayans  </h3>  </th>
-    <th>  <h3>  Aztecs  </h3>  </th>
+    <th>  <h3>  Ryan Reynolds  </h3>  </th>
+    <th>  <h3>  Ryan Gosling  </h3>  </th>
   </tr>
 </thead>
 
@@ -29,7 +29,7 @@ layout: default
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.mayans.strengths %}
+      {% for item in page.reynolds.strengths %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -40,7 +40,7 @@ layout: default
     <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.mayans.weaknesses %}
+      {% for item in page.reynolds.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -56,7 +56,7 @@ layout: default
     <h4>  Strengths  </h4>
     <ul>
       
-      {% for item in page.aztecs.strengths %}
+      {% for item in page.gosling.strengths %}
         <li>{{ item }}</li>
       {% endfor %}
       
@@ -67,7 +67,7 @@ layout: default
     <h4>  Weaknessess  </h4>
     <ul>
       
-      {% for item in page.aztecs.weaknesses %}
+      {% for item in page.gosling.weaknesses %}
          <li>{{ item }}</li>
       {% endfor %}
       
@@ -183,32 +183,24 @@ layout: default
         ---
         layout: liquid-table
         title: 'amiright?'
-        mayans:
+        reynolds:
           strengths:
-          - calendar system
-          - astronomy
-          - first organized "ball game"
-          - developed concept of zero
-          - pyramids
+          - good father
+          - funny
+          - dated alanis morissette
           weaknesses: 
-          - overpopulation
-          - overuse of their land
-          - unable to fight droughts 
-          - religion
-          - conquered by stronger civilization          
-        aztecs:
+          - singing
+          - green lantern movie
+          - tennis backhand 
+        gosling:
           strengths: 
-          - conquered many cultures
-          - strong empire economically
-          - great leaders
-          - well organized military
-          - knew their land very well
+          - builds houses
+          - is a real boy
+          - never dated alanis morissette
           weaknesses: 
-          - human/ritual sacrifices
-          - political problems
-          - diseases (weak health)
-          - local enemies from past invasions
-          - conquered by stronger civilization         
+          - micky mouse club
+          - cries a lot
+          - not ryan reynolds
         ---
 
        ###
@@ -222,14 +214,14 @@ layout: default
        ###  &lt;li> list item 
        ###
 
-        &lt;h2> Mayans vs Aztecs &lt;/h2>
+        &lt;h2> Ryan vs Ryan &lt;/h2>
 
-        &lt;table id="mayans-v-aztecs">
+        &lt;table id="ryan-v-ryan">
 
         &lt;thead>
           &lt;tr>
-            &lt;th>  &lt;h3>  Mayans  &lt;/h3>  &lt;/th>
-            &lt;th>  &lt;h3>  Aztecs  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ryan Reynolds  &lt;/h3>  &lt;/th>
+            &lt;th>  &lt;h3>  Ryan Gosling  &lt;/h3>  &lt;/th>
           &lt;/tr>
         &lt;/thead>
 
@@ -240,13 +232,11 @@ layout: default
             &lt;ul>
 
               ###  LIQUID LOOPS WITH YAML DATA
-              ###  mayans:
+              ###  reynolds:
               ###    strengths:
               ###    - good father
               ###    - funny
               ###    - dated alanis morissette
-              ###
-              ###
 
               &lbrace;% for item in page.reynolds.strengths %}
                  &lt;li>  &lbrace;&lbrace; item }}  &lt;/li>
@@ -300,7 +290,7 @@ layout: default
 
 <style>
   pre{
-  font-family: Montserrat, Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   margin-bottom: 10px;
   padding: 5px;
   background-color: #eee;
@@ -317,4 +307,3 @@ table {
   }
   
 </style>
-
