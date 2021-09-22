@@ -43,9 +43,7 @@ mycustomtag { }
 
 <h1> ASU </h1>
 <a href="https://www.asu.edu/">Visit Arizona State University</a><br/>
-
 <a href="https://publicservice.asu.edu/programs/ms/program-evaluation-and-data-analytics-ms"> Visit Program Evaluation and Data Analytics</a><br/>
-  
 <a href="https://publicservice.asu.edu/">Visit The Watts College of Public Service and Community Solutions</a> 
  
 <div class="myDiv">
