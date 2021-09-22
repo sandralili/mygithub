@@ -4,20 +4,20 @@ title: About me
 subtitle: This is my story
 ---
 
-<img src="../img/asu.png" height="300px" class="center">
+<img src="../img/sf.jpg" height="300px" class="center">
 
 <h1> Sandra Pérez </h1>
 
 <div class = "example-class">
 
-Hello, my name is Sandra Pérez and I am currently working on my master's degree at Arizona State University. The name of the degree is Program Evaluation and Data Analytics. 
+I enjoy walking outside. When the weather is nice, I go hiking. 
   
 </div>
 
 
-<h1> My Degrees </h1>
+<h1> My Hobbies </h1>
 
-I have a Bachelors Degree in Computer Science. I received my degree more than twenty years ago. It has been a challenge learning new things but I love this program and I have learned a lot.
+Love listening to music, love The Beatles and music from the 60s (influenced by my parents!), but I like all kind of music. When I have time, I contribute translating or creating new pages in Spanish for Wikipedia.
 
 <style>
 
@@ -76,7 +76,6 @@ mycustomtag { }
   <p>CS - Computer Science</p>
 </div>
 
-<p>I started this program in August, 1993, I graduated in December, 1997</p>
 
 </body>
 </html2>
