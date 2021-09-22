@@ -9,7 +9,7 @@ use-site-title: true
 
 Welcome to my site!
 
-<img src="../img/slperez8.jpg" class="center">
+<img src="../img/slperez8b.jpg" class="center">
 
 ### Program
 
@@ -22,9 +22,7 @@ Code: CPP 527
 
 Faculty: Watts College of Public Service and Community Solutions
 
-[Program Evaluation and Data Analytics] (https://publicservice.asu.edu/programs/ms/program-evaluation-and-data-analytics-ms)
-
-
+<a href="https://publicservice.asu.edu/programs/ms/program-evaluation-and-data-analytics-ms">Program Evaluation and Data Analytics</a> 
 
 ### Contact
 
