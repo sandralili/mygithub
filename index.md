@@ -7,8 +7,6 @@ use-site-title: true
 
 Welcome to my site!
 
-<img src="img/asu.png" height="300px" class="center">
-
 <h1> Sandra Pérez </h1>
 
 <div class = "example-class">
@@ -40,6 +38,8 @@ mycustomtag { }
 </style>
 </head>
 <body>
+  
+<img src="img/asu.png" height="300px" class="center">
 
 <h1> ASU </h1>
 <a href="https://www.asu.edu/">Visit Arizona State University</a><br/>
@@ -97,10 +97,10 @@ Email: [slperez8@asu.edu](mailto:slperez8@asu.edu)
 
 ### Something to think about...
 <div style="color: purple;">
- <h2> Time flyes... </h2>
+ <h2> Time flies... </h2>
   <p>
     Learning new things is a challenge and takes time
-    <span style="color: black;"> but it is worthy</span>
+    <span style="color: orange;"> but it is worthy</span>
   </p>
 </div>
 
