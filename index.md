@@ -5,7 +5,7 @@ subtitle: My Master's Degree
 use-site-title: true
 ---
 
-<img src="../img/puntademita.png" height="300px" class="center">
+<img src="../img/puntademita.png" height="200px" class="center">
 
 Welcome to my site!
 
@@ -25,10 +25,20 @@ Faculty: Watts College of Public Service and Community Solutions
 Program Evaluation and Data Analytics
 
 <img src="..img/sf.png" height="200px" class="center">
-<img src="../img/piramides.jpg" height="150px" class="center">
+
+
 
 ### Contact
 
 Email: [slperez8@asu.edu](mailto:slperez8@asu.edu)
 
-```
+### Somthing to think about...
+<div style="color: black;">
+ <h2> Time flyes... </h2>
+  <p>
+    Learning new things is a challenge,
+    <span style="color: purple;"> but it is worthy</span>
+  </p>
+</div>
+
+<img src="../img/piramides.jpg" height="150px" class="center">
