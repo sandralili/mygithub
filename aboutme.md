@@ -33,8 +33,8 @@ mycustomtag { }
 <head>
 <style>
 .myDiv {
-  border: 3px outset black;
-  background-color: purple;    
+  border: 5px outset purple;
+  background-color: white;    
   text-align: center;
 }
 </style>
@@ -61,8 +61,8 @@ mycustomtag { }
 <head>
 <style>
 .myDiv {
-  border: 3px outset black;
-  background-color: purple;    
+  border: 5px outset purple;
+  background-color: white;    
   text-align: center;
 }
 </style>
