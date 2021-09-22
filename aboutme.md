@@ -81,13 +81,3 @@ mycustomtag { }
 </body>
 </html2>
 
-
-<div style="color: black;">
- <h2> Time flyes... </h2>
-  <p>
-    Learning new things is a challenge,
-    <span style="color: purple;"> but it is worthy</span>
-  </p>
-</div>
-
-
