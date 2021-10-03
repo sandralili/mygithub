@@ -101,8 +101,8 @@ img {
 
 .navbar-custom .nav li a {
   text-transform: uppercase;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
 }
 
 .navbar-custom .navbar-brand,
