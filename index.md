@@ -69,7 +69,7 @@ mycustomtag { }
 <body>
 
 <h1> ITT </h1>
-<a href="https://https://www.tepic.tecnm.mx//">Visit Technological Institute of Tepic</a>  
+<a href="https://www.tepic.tecnm.mx/">Visit Technological Institute of Tepic</a>  
  
 <div class="myDiv">
   <h2>Bachelor of Science</h2>
@@ -85,9 +85,9 @@ mycustomtag { }
 
 ### Program
 
-This site was created for   Lab: 05
+This site was created for   Lab: 05 - GitHub Pages
 
-Course's name: "Foundations of Data Science Part II"   Code: CPP 527
+Class Information: "Foundations of Data Science Part II"   Code: CPP 527
 
 
 
