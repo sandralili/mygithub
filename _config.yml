@@ -46,8 +46,8 @@ navbar-links:
   Table Demo: "table-demo"
   Resume: "resume"
   Code-Through: 
-   - ggplot2: "ggplot2"
-   - tm/wordcloud: "tm-wordcloud"
+   - ggplot2: "https://github.com/sandralili/mygithub.io/blob/master/ggplot2.html/"
+   - tm/wordcloud: "https://github.com/sandralili/mygithub.io/blob/master/tm-wordcloud.html/"
  
 # --- Footer options --- #
 
