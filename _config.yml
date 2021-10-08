@@ -47,7 +47,7 @@ navbar-links:
   Resume: "resume"
   Code-Through: 
     # - Ggplot2: "ggplot2"
-    - Tm/wordcloud: "https://github.com/sandralili/mygithub.io/blob/master/tm-wordcloud.html"
+    - Tm/wordcloud: "https://github.com/sandralili/mygithub.io/tm-wordcloud.html/"
  
 # --- Footer options --- #
 
