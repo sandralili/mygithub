@@ -1,4 +1,8 @@
 <br> <br>
+---
+layout: page
+title: ggplot
+---
 
 Content Overview
 ================
