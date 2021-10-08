@@ -1,0 +1,298 @@
+---
+title: "The Power of Visuals Using ggplot2"
+author: "Sandra Pérez"
+output:
+  html_document:
+    theme: lumen
+    df_print: paged
+    highlight: tango
+    toc: yes
+    toc_float: yes
+---
+
+```{r include = FALSE}
+
+# SET GLOBAL KNITR OPTIONS
+
+knitr::opts_chunk$set(echo = TRUE, 
+                      message = FALSE, 
+                      warning = FALSE, 
+                      fig.width = 10, 
+                      fig.height = 8)
+
+
+
+# LOAD PACKAGES
+
+library(tidyverse)
+library(dplyr)
+library(gganimate) 
+library(stargazer)
+library(gifski)
+library(readr)
+library(ggplot2)
+library(pander)
+# (kableExtra)
+library(Lahman) 
+
+
+url <- "https://covid.ourworldindata.org/data/owid-covid-data.csv"
+
+covid_data <- read_csv(url)
+new.table.2 <- filter( covid_data, ! is.na( continent ) )
+
+```
+
+<br>
+<br>
+
+
+# Content Overview
+
+The following analysis uses information of the COVID-19 data. The information contains data recorded daily, with variables as continent, location (country), new and total cases, new and total deaths, population, etc. 
+
+
+![World Map](C:\Users\sandr\OneDrive\Pictures\world-map.png)
+
+<br>
+<br>
+
+## Learning Objectives
+
+Specifically, with this code-through tutorial, we will learn how to visualizing and communicating statistical models with effect plots using R Markdown to blend exposition, R code and R output into nice reports and presentations creating easy-to-read graphics.
+
+<br>
+<br>
+
+## Installing the Package
+
+The easiest way to get ggplot2 is to install the whole tidyverse:
+  install.packages("tidyverse")
+
+Alternatively, install just ggplot2:
+  install.packages("ggplot2")
+
+Or the development version from GitHub:
+  install.packages("devtools")
+  
+  devtools::install_github("tidyverse/ggplot2")
+
+ Sometimes, it is easier to follow visual instrucions, therefore there is a great YouTube video that will guide us to install this package, step by step:
+* [ggplot2 Tutorial](https://www.youtube.com/watch?v=hr2X7rmkprM)
+
+<br>
+<br>
+
+## ggplot2
+The ggplot2 package, created by Hadley Wickham, offers a powerful graphics language for creating elegant and complex plots. ggplot2 is a plotting package that makes it simple to create complex plots from data in a data frame. It provides a more programmatic interface for specifying what variables to plot, how they are displayed, and general visual properties.
+
+This package contains many functions to create differnt types of graphics. These ones are very popular:
+-- geom_bar() - to create bar plots
+
+-- geom_line() - to create line plots 
+
+-- geom_density() - to create a density chart
+
+-- geom_point() - the point geom is used to create scatterplots
+
+
+Rstudio created Cheat Sheet with information about Data Visualization with ggplot2. We can visit this page:
+* [ggplot2-cheatsheet](https://rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)
+
+<br>
+<br>
+
+# Our Data
+
+This table show some of the content of the dataset we are using. We will be using the columns Continent, date, new_cases, and new_deaths mainly.
+
+```{r}
+
+head (new.table.2)
+
+```
+
+<br>
+<br>
+
+## Example 1: Table vs Bars Graphic
+
+We group our information by continent to find out how many cases per continent. We use the commands group_by and summarize.
+
+```{r}
+
+# New cases and new deaths per continent
+new.table.2 %>%
+  
+ group_by (continent) %>%
+  
+ summarize (new.cases = round(sum(new_cases, na.rm = TRUE)), 
+             new.deaths = round(sum(new_deaths, na.rm = TRUE)))
+
+```
+
+<br>
+<br>
+
+Now the same information but using a visual, no doubt that it is easier to understand! We will be using the ggplot() and geom_bar() functions. Fill will be determined by the continent variable.
+
+```{r}
+
+# New cases per continent bars graphic
+
+new.table.2 %>%
+
+ group_by (continent) %>%
+  
+ summarize(total.cases = sum(new_cases, na.rm = TRUE), 
+            total.deaths = sum(new_deaths, na.rm = TRUE), .groups = 'drop')
+  
+ ggplot (new.table.2, 
+         aes(x = continent, 
+         fill = continent)) + 
+         geom_bar()
+  
+```
+
+<br>
+<br>
+
+## Example 2: Table vs Plot
+
+We group our information by date and continent to find out how many each continenthad every day. We use the commands group_by and summarize again.
+
+```{r}
+
+# New cases per date and continent lines graphic 
+
+new.table.2 %>%
+  
+  group_by (date, continent) %>%
+  
+  summarize (cases.per.date  = mean (new_cases), .groups = 'drop') 
+
+```
+
+<br>
+<br>
+
+Again the same information from the table but using a visual. We will be using the ggplot() again,  the geom_line(), and the geom_point() functions. The color of the lines and points will be determined by the continent variable.
+
+```{r}
+
+# New cases per date and continent lines graphic 
+
+new.table.2 %>%
+  
+  group_by (date, continent) %>%
+  
+  summarize (cases.per.date  = mean (new_cases), .groups = 'drop') %>%
+
+  ggplot (aes(x = date, 
+              y = cases.per.date, 
+              color = continent)) +
+  
+  geom_line (size=1) + 
+   
+  geom_point (size=1.5)
+     
+```
+
+<br>
+<br>
+
+## A Dynamic Graphic
+The ggplot() allows us to make a dynamic visualization. We just need to use the transition_reveal() function with the date variable. Using the ggplot() will make an elegant graphic!
+
+```{r}
+
+# New cases per date and continent lines dynamic graphic
+
+new.table.2 %>%
+  
+  group_by (date, continent) %>%
+  
+  summarize (cases.per.date  = mean (new_cases), .groups = 'drop') %>%
+
+  ggplot (aes(x = date, 
+              y = cases.per.date, 
+              color = continent)) +
+  
+  geom_line (size=1) + 
+  
+  transition_reveal(date)
+   
+#  geom_point (size=1.5)
+     
+```
+
+<br>
+<br>
+
+## Example 3: Another Cool Graphic
+Another way to present information using the ggplot() is by using the function geom_density(). We want to find the average of the population older than 65 years per continent. We group the information and display it using a table. Then we create the graphic and we can notice that the visualization is very simple and easier to understand!
+
+```{r}
+
+# density graphic 
+
+
+new.table.2 %>%
+  
+  group_by (continent, aged_65_older) %>%
+  
+  summarize (average.aged.65.older  = mean (aged_65_older), .groups = 'drop') 
+
+  
+```
+
+
+
+```{r}
+
+# density graphic 
+
+
+new.table.2 %>%
+  
+  group_by (continent, aged_65_older) %>%
+  
+  summarize (average.aged.65.older  = mean (aged_65_older), .groups = 'drop') %>%
+
+  ggplot (aes(x = average.aged.65.older, 
+           fill = continent)) +
+    
+  geom_density(alpha=0.2)
+
+
+```
+
+<br>
+<br>
+
+# Further Resources
+
+Learn more about ggplot() with the following link:
+[ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics](https://cran.r-project.org/web/packages/ggplot2/index.html)
+
+<br>
+<br>
+
+* Resource I [Coronavirus Source Data](https://ourworldindata.org/coronavirus-source-data)
+<br>
+<br>
+
+
+# Works Cited
+
+This code through references and cites the following sources:
+
+<br>
+<br>
+
+* DeltaDNA (2015). Source I. [Gorgeous graphs with ggplot2](https://www.youtube.com/watch?v=rsG-GgR0aEY)
+
+* Earth Lab (2021). Source II. [Earth Data Analytics Online Certificate](https://www.earthdatascience.org/courses/earth-analytics/document-your-science/add-images-to-rmarkdown-report/)
+
+<br>
+<br>
